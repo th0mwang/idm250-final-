@@ -16,24 +16,6 @@
 
 
 
-<?php
-$query = new WP_Query([
-    'post_type' => 'post',
-    'posts_per_page' => 3,
-    'orderby' => 'date',
-    'order' => 'DESC',
-]);
-
-if ( $query->have_posts() ):
-    while ( $query->have_posts() ) : $query->the_post();
-        echo '<h2>' .get_the_title(). '</h2> <br>';
-        echo '<p>' .get_the_excerpt(). '</p>';
-        echo '<a href "'.get_the_permalink().'">Read More</a>';
-        echo '<hr>';
-    endwhile;
-    wp_reset_postdata();
-endif;
-?>
 
     
 <?php get_footer(); ?>

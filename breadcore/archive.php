@@ -9,7 +9,7 @@ if (have_posts() ) :
         echo '<hr>';
     endwhile;
 else:
-    echo '<p>No content found</p>'
+    echo '<p>No content found</p>';
 endif;
 ?>
 
