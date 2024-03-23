@@ -333,6 +333,12 @@ wp-block-media-text__media .wp-image-103{
     padding-bottom: 2%;
 }
 
+.archive h2{
+    color: white;
+}
+.archive a{
+    color: white;
+}
 
 @media screen and (max-width: 1800px) {
        #header1 li{
