@@ -1,0 +1,506 @@
+body{
+    font-family: 'Futura Std', sans-serif;
+}
+footer{
+    padding-bottom: 2vw;
+}
+#header1{
+    text-align: center;
+}
+
+#header1 li{
+    color: white;
+    filter: blur(0.15rem);
+    transition: all 0.5s;
+    opacity: 0.7;
+    padding-left: 3%;
+    padding-right: 3%; 
+}
+#header1 li:hover{
+    filter: blur(0);
+    opacity: 1;
+}
+.wp-block-group {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+figcaption{
+    color: white;
+    opacity: 0.5;
+    width: fit-content;
+    margin: auto;
+}
+
+.wp-block-group .wp-block-image{
+    margin: auto;
+    margin-bottom: 0%;
+    width: auto;
+    padding: 1vw;
+}
+
+.wp-block-column{
+    width: fit-content;
+}
+
+.wp-block-group h1{
+    font-size: 400%;
+}
+
+.wp-block-group h2{
+    font-size: 300%;
+}
+
+.wp-block-group h3{
+    font-size: 250%;
+}
+
+.wp-block-group h4{
+    font-size: 200%;
+}
+
+.wp-block-group h5{
+    font-size: x-large;
+}
+
+.wp-block-group h6{
+    font-size: large;
+}
+
+.wp-block-columns h1{
+    font-size: xx-large;
+}
+
+.wp-block-columns h2{
+    font-size: x-large;
+}
+
+.wp-block-columns h3{
+    font-size: larger;
+}
+
+.wp-block-columns h4{
+    font-size:large;
+}
+
+.wp-block-columns h5{
+    font-size:medium;
+}
+
+.wp-block-columns h6{
+    font-size:small;
+}
+.wp-block-heading strong{
+    font-size: large;
+    color: white;
+    padding-top: 1vh;
+}
+.wp-block-quote{
+}
+.content h1{
+    font-size: 400%;
+    margin: 0;
+}
+.content h2{
+    font-size: 350%;   
+}
+.content h3{
+    font-size: 300%;
+}
+.content h4{
+    font-size: 250%;
+}
+.content h5{
+    font-size: 200%;
+}
+.content h6{
+    font-size: 150%;
+}
+blockquote{
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+blockquote p{
+    text-transform: uppercase;
+    font-size: 8vh;
+    height:100%;
+}
+cite span{
+    color: white;
+
+}
+
+#menu-header{
+    margin: auto;
+}
+#menu-header .menu-item{
+    display: inline;
+    font-size: 3vw;
+    color:white;
+}
+
+.menu-item img{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    filter:none;
+}
+.menu-primary-2024-menu-container ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.menu-item:hover{
+    filter: blur(0);
+    opacity: 1;
+}
+.wp-block-heading{
+    color: white;
+}
+body{
+    background-image: url("/wp-content/themes/breadcore/images/Liquid-texture-graphic-design-Graphics-22742330-1.jpg");
+    background-size: cover;
+    background-color: white;
+}
+
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+#title{
+    font-family: 'Futura Std', sans-serif;
+    font-weight: 600;
+    color: white;
+    animation: 0.5s ease-out 0s 1 slideInFromTop;
+}
+h1{
+    font-family: 'Futura Std', sans-serif;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 100%;
+    text-align: start;
+}
+.wp-block-group p{
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+
+}
+.wp-block-columns{
+    padding-top: 2vh;
+}
+.wp-block-column ul{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    list-style: circle;
+}
+.wp-block-column li{
+    padding-right: 2vw;
+    color: white;
+}
+.wp-block-column{
+    color:white;
+}
+wp-block-media-text__media .wp-image-103{
+    height:150%;
+}
+.wp-block-media-text{
+    background-color: #32373c;
+    width: 80%;
+    margin: auto;
+}
+
+.wp-block-group ol{
+    list-style:decimal;
+    width: fit-content;
+    text-align: start;
+    color: white;
+    margin: auto;
+    padding-top: 1vw;
+}
+
+.wp-block-group ul{
+    width: fit-content;
+    text-align: start;
+    color: white;
+    list-style: circle;
+    margin: auto;
+    padding-top: 1vw;
+}
+
+.wp-block-buttons{
+    width: fit-content;
+    padding-top: 1vh;
+}
+.wp-block-button{
+    height: fit-content;
+    width: fit-content;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: block;
+}
+.wp-block-button__link{
+    display: inline-block;
+    width: 8vw;
+    padding: 10%;
+    background-color: #B7ABA8;
+}
+.wp-block-button__link:hover .wp-image-104{
+    filter: invert();
+    transition: all 0.5s;
+}
+
+.wp-block-button__link:hover{
+    color: black;
+    background-color: #A8B4B7;
+    transition: all 0.5s;
+}
+
+
+.wp-block-media-text__content{
+    padding-left:none;
+}
+
+.wp-block-media-text__content p{
+    font-size:1vw;
+    text-align: start;
+}
+.wp-image-104{
+    margin: auto;
+    transform: scale(0.7);
+}
+
+.empty{
+    margin-top:-5vh;
+}
+#menu-item-31 a{
+    padding: 1.5vh 2vw;
+    width: fit-content;
+    margin-top: 2vh;
+    background-color: #32373c;
+    transition: all linear 0.25s;
+}
+#menu-item-31 a:hover{
+    background-color:#B7ABA8;
+}
+#menu-item-31{
+    color: white;
+    margin: auto;
+    font-size: 2vh;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    padding: 0;
+    width: fit-content;
+}
+#menu-item-31::after{
+    content: '';
+    position: absolute;
+    width: 99%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: #B7ABA8;
+    transform-origin: bottom right, top right;
+    transition: transform 0.25s ease-out;
+}
+#menu-item-31:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left, top left;
+}
+
+
+.empty h1{
+    font-size: 40vh;
+    height: 50%;
+    margin: auto;
+}
+.menu-404-page-container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+@media screen and (max-width: 1800px) {
+       #header1 li{
+        color: white;
+        filter: blur(0.1rem);
+        transition: all 0.5s;
+        opacity: 0.7;
+        padding-left: 3%;
+        padding-right: 3%; 
+    }
+
+    #header1 li:hover{
+        filter: blur(0);
+        opacity: 1;
+        text-decoration: underline;
+    }
+
+    body{
+        background-image: url("/wp-content/themes/breadcore/images/Liquid-texture-graphic-design-Graphics-22742330-1.jpg");
+        background-size:auto;
+        background-color: white;
+    }
+    .menu-item{
+        color: white;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 8vh;
+        filter: blur(0.05rem);
+        transition: all 0.5s;
+        opacity: 0.5; 
+    }
+    .menu-item:hover{
+        filter: blur(0);
+        opacity: 1;
+    }
+
+    .empty{
+        margin-top:-5vh;
+    }
+    #menu-item-31 a{
+        padding: 2vh 3vw;
+        width: fit-content;
+        margin-top: 2vh;
+        background-color: #32373c;
+        transition: all linear 0.25s;
+    }
+    #menu-item-31 a:hover{
+        background-color:#B7ABA8;
+    }
+    #menu-item-31{
+        opacity:1;
+        filter: none;
+        margin: auto;
+        width: 100%;
+        font-size: 3.5vh;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        padding: 0;
+    }
+    #menu-item-31::after{
+        content: '';
+        position:fixed;
+        width: 100%;
+        transform: scaleX(0);
+        border-radius: 5px;
+        height: 0.05em;
+        bottom: 0;
+        left: 0;
+        background: #B7ABA8;
+        transform-origin: bottom right, top right;
+        transition: transform 0.3s ease-out;
+    }
+    #menu-item-31:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left, top left;
+    }
+        
+    .customize-support .empty h1{
+        font-size: 20vh;
+        height: 50%;
+        margin: auto;
+    }
+    .customize-support .empty p{
+        font-size: large;
+        height: 30%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    .wp-block-media-text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .wp-block-media-text__content p{
+        font-size:2.1vh;
+    }
+    .wp-block-media-text__media img, .wp-block-media-text__media video{
+        width: 40vw;
+        margin: auto;
+    }
+    blockquote{
+        padding-bottom: 2vh;
+    }
+    blockquote p{
+        text-transform: uppercase;
+        font-size: 3.5vh;
+        height:100%;
+    }
+    .wp-block-media-text.is-vertically-aligned-top .wp-block-media-text__media{
+        align-self: center;
+        height:fit-content;
+        padding:0;
+    }
+    .wp-block-buttons{
+        width:fit-content;
+    }
+    .wp-block-button__link{
+        margin: auto;
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    .wp-block-buttons{
+        margin: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .wp-block-button{
+        height: fit-content;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: block;
+    }
+    .wp-block-button__link{
+        display: inline-block;
+        width: 8vw;
+        padding: 10%;
+        background-color: #B7ABA8;
+    }
+    .wp-block-media-text__content .wp-block-heading{
+        text-align: center;
+        font-size: 200%;
+    }
+    .wp-block-media-text__content{
+        padding: none;
+    }
+}
+
+  @media only screen and (max-width: 601px){
+    blockquote{
+        padding-bottom: 2vh;
+    }
+    blockquote p{
+        text-transform: uppercase;
+        font-size: 3vh;
+        height:100%;
+    }
+    .wp-block-media-text__content p{
+        font-size:3vw;
+    }
+    .wp-block-button__link{
+        width: 200%;
+        font-size: 3vw;
+        margin: auto;
+    }
+  }  
+/* 
+601-800
+ */
