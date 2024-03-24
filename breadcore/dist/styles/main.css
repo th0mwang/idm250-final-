@@ -335,11 +335,48 @@ wp-block-media-text__media .wp-image-103{
 
 .archive h2{
     color: white;
+    font-weight:bolder;
+    font-size: 2.2vw;
 }
-.archive a{
+.archive p{
     color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
 }
-
+.archive .link{
+    color: white;
+    font-size: 1.2vw;
+    transition: linear 0.2s;
+    width: fit-content;
+    font-weight: lighter;
+}
+.archive .link:hover{
+    color: #B7ABA8;
+}
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+  
+  .blog > div {
+    flex: 1 0 50%; /* Two columns */
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .grid {
+    max-width: 40%; /* Set maximum width to 50% */
+    border: 1px solid white;
+  }
+  
+  @media (max-width: 800px) {
+    .blog > div {
+      flex-basis: 100%; /* One column */
+    }
+  }
+  
 @media screen and (max-width: 1800px) {
        #header1 li{
         color: white;
