@@ -8,7 +8,6 @@ if (have_posts() ) :
         echo '<h2>' .get_the_title(). '</h2>';
         echo '<p>' .get_the_excerpt(). '</p>';
         echo '<a class="link" href="'.get_the_permalink().'">Read More</a>';
-        echo '<hr>';
         echo '</div>';
     endwhile;
 else:

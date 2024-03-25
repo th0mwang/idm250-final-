@@ -21,10 +21,11 @@ footer{
     opacity: 1;
 }
 .wp-block-group {
-    padding-left: 20%;
-    padding-right: 20%;
     padding-bottom: 2vh;
     text-align: center;
+    margin: auto;
+    padding-left: 15%;
+    padding-right:  15%;
 }
 figcaption{
     color: white;
@@ -46,26 +47,38 @@ figcaption{
 
 .wp-block-group h1{
     font-size: 400%;
+    padding-left: 0%;
+    padding-right:  0%;
 }
 
 .wp-block-group h2{
     font-size: 300%;
+    padding-left: 0%;
+    padding-right:  0%;
 }
 
 .wp-block-group h3{
     font-size: 250%;
+    padding-left: 0%;
+    padding-right:  0%;
 }
 
 .wp-block-group h4{
     font-size: 200%;
+    padding-left: 0%;
+    padding-right:  0%;
 }
 
 .wp-block-group h5{
     font-size: x-large;
+    padding-left: 0%;
+    padding-right:  0%;
 }
 
 .wp-block-group h6{
     font-size: large;
+    padding-left: 0%;
+    padding-right:  0%;
 }
 
 .wp-block-columns h1{
@@ -92,11 +105,14 @@ figcaption{
     font-size:small;
 }
 .wp-block-heading strong{
-    font-size: large;
     color: white;
     padding-top: 1vh;
 }
-.wp-block-quote{
+.wp-block-media-text__content .wp-block-group ul{
+    margin: 0;
+}
+.wp-block-media-text__content .wp-block-group{
+    padding-left: 0;
 }
 .content h1{
     font-size: 400%;
@@ -117,6 +133,65 @@ figcaption{
 .content h6{
     font-size: 150%;
 }
+.wp-block-media-text__content h6{
+    opacity:0.5;
+}
+.wp-block-cover .wp-block-cover__inner-container p{
+    opacity: 0.5;
+}
+.wp-block-media-text .has-media-on-the-right{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.page-template-default .content p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.page-template-default .content table{
+    width: fit-content;
+    color: white;
+}
+.page-template-default .content .wp-block-group .wp-block-column figure{
+    width: fit-content;
+}
+.page-template-default .content .wp-block-table{
+    padding-top: 1vw;
+    width: fit-content;
+    margin: 0%;
+    padding-left: 50%;
+    margin-right: 0%;
+    
+}
+.page-template-default .content .wp-block-group .wp-block-table figure{
+    margin: 0%;
+}
+.page-template-default .content .wp-block-group {
+    padding-top: 1vw;
+    margin: 0%;
+}
+.page-template-default .content ul{
+    padding-left: 15%;
+    padding-right:15%;
+    margin: 0%;
+}
+.page-template-default .content .wp-block-column .wp-block-group{
+    padding-right: 50%;
+    padding-left: 0%;
+}
+.page-template-default .content cite{
+    padding-left: 15%;
+    padding-top: 1vw;
+}
+.page-template-default .content .wp-block-column{
+
+    width: fit-content;
+    text-align: center;
+}
+
+.page-template-default .content .wp-block-button{
+    margin: auto;
+    padding-left: 15vw;
+}
 blockquote{
     padding-bottom: 0.5%;
     padding-top: 0.5%;
@@ -127,6 +202,11 @@ blockquote p{
     height:100%;
 }
 cite span{
+    color: white;
+
+}
+
+cite{
     color: white;
 
 }
@@ -212,12 +292,9 @@ p{
 .wp-block-column{
     color:white;
 }
-wp-block-media-text__media .wp-image-103{
-    height:150%;
-}
+
 .wp-block-media-text{
     background-color: #32373c;
-    width: 80%;
     margin: auto;
 }
 
@@ -272,14 +349,6 @@ wp-block-media-text__media .wp-image-103{
     padding-left:none;
 }
 
-.wp-block-media-text__content p{
-    font-size:1vw;
-    text-align: start;
-}
-.wp-image-104{
-    margin: auto;
-    transform: scale(0.7);
-}
 
 .empty{
     margin-top:-5vh;
@@ -337,10 +406,11 @@ wp-block-media-text__media .wp-image-103{
     color: white;
     font-weight:bolder;
     font-size: 2.2vw;
+    text-align: center;
 }
 .archive p{
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 500;
 }
 .archive .link{
@@ -349,14 +419,19 @@ wp-block-media-text__media .wp-image-103{
     transition: linear 0.2s;
     width: fit-content;
     font-weight: lighter;
+    padding: 3%;
+    margin: auto;
+    background-color: black;
 }
 .archive .link:hover{
     color: #B7ABA8;
+    background-color: white;
 }
+
 .blog {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    justify-content: center;
 }
   
   .blog > div {
@@ -367,10 +442,14 @@ wp-block-media-text__media .wp-image-103{
   }
   
   .grid {
-    max-width: 40%; /* Set maximum width to 50% */
-    border: 1px solid white;
+    max-width: 35%; /* Set maximum width to 50% */
+    background-color: #808080;
   }
   
+  .attachment-thumbnail{
+    justify-self: center;
+}
+
   @media (max-width: 800px) {
     .blog > div {
       flex-basis: 100%; /* One column */
